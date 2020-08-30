@@ -61,5 +61,3 @@ To draw continuous lane lines,
 
 - Account for curves in the road/different lane lengths
 - Make use of data in previous frames! e.g. the lane detected between frame `i` and `i+1` shouldn't be too different/hopping across too many pixels. It should only change gradually. This will also allow us to reduce noise (especially frames where there might suddenly be shadows and other objects, like in the challenge video)
-
-Another potential improvement could be to ...
